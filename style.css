@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+}
+.main-block {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.first-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.first-container__item1 {
+    background-color: dimgray;
+    padding: 30px;
+    border-radius: 6px;
+}
+.first-container__item2 {
+    background-color: dimgray;
+    padding: 30px;
+    border-radius: 6px;
+}
+.first-container__item3 {
+    background-color: dimgray;
+    padding: 30px;
+    border-radius: 6px;
+}
+.second-container__item1 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color: dimgray;
+    border-radius: 6px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+.item__paragraph {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.third-conainer__item1 {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background-color: dimgray;
+    border-radius: 6px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.fourth-container-item1 {
+    display: flex;
+    background-color: dimgray;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    padding: 20px 30px;
+    border-radius: 6px;
+}
+.fourth-container-item2 {
+    display: flex;
+    background-color: dimgray;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    padding: 20px 30px;
+    border-radius: 6px;
+}
+.fourth-container-item3 {
+    display: flex;
+    background-color: dimgray;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    padding: 20px 30px; 
+    border-radius: 6px;  
+}
+.fourth-container-item4 {
+    display: flex;
+    background-color: dimgray;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    padding: 20px 30px;
+    border-radius: 6px;
+}
